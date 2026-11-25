@@ -1,0 +1,184 @@
+[
+  {
+    "label": "tab:age",
+    "number": "S2",
+    "file": "data/tables/Table_S2.csv",
+    "source": "AgeRows",
+    "rows": 7
+  },
+  {
+    "label": "tab:baseline-age",
+    "number": "S4",
+    "file": "data/tables/Table_S4.csv",
+    "source": "BaselineAgeRows",
+    "rows": 6
+  },
+  {
+    "label": "tab:risk-specs",
+    "number": "S6",
+    "file": "data/tables/Table_S6.csv",
+    "source": "FullRiskSpecs",
+    "rows": 13
+  },
+  {
+    "label": "tab:thresholds",
+    "number": "S7",
+    "file": "data/tables/Table_S7.csv",
+    "source": "ThresholdRows",
+    "rows": 9
+  },
+  {
+    "label": "tab:depth-specs",
+    "number": "S8",
+    "file": "data/tables/Table_S8.csv",
+    "source": "FullDepthSpecs",
+    "rows": 13
+  },
+  {
+    "label": "tab:threshold-age",
+    "number": "S9",
+    "file": "data/tables/Table_S9.csv",
+    "source": "ThresholdAgeRows",
+    "rows": 9
+  },
+  {
+    "label": "tab:behaviour-summary",
+    "number": "S10",
+    "file": "data/tables/Table_S10.csv",
+    "source": "BehaviourSummaryRows",
+    "rows": 4
+  },
+  {
+    "label": "tab:deciles",
+    "number": "S11",
+    "file": "data/tables/Table_S11.csv",
+    "source": "BehaviourCutRows",
+    "rows": 11
+  },
+  {
+    "label": "tab:age-scores",
+    "number": "S12",
+    "file": "data/tables/Table_S12.csv",
+    "source": "BehaviourAgeRows",
+    "rows": 6
+  },
+  {
+    "label": "tab:paths",
+    "number": "S13",
+    "file": "data/tables/Table_S13.csv",
+    "source": "PathRows",
+    "rows": 15
+  },
+  {
+    "label": "tab:standardized-risks",
+    "number": "S14",
+    "file": "data/tables/Table_S14.csv",
+    "source": "StandardizedRiskRows",
+    "rows": 5
+  },
+  {
+    "label": "tab:replacement-orders",
+    "number": "S15",
+    "file": "data/tables/Table_S15.csv",
+    "source": "MediationOrderRows",
+    "rows": 2
+  },
+  {
+    "label": "tab:med",
+    "number": "S16",
+    "file": "data/tables/Table_S16.csv",
+    "source": "MediationRows",
+    "rows": 5
+  },
+  {
+    "label": "tab:simulation-age",
+    "number": "S20",
+    "file": "data/tables/Table_S20.csv",
+    "source": "SimulationAgeRows",
+    "rows": 6
+  },
+  {
+    "label": "tab:population-groups",
+    "number": "S21",
+    "file": "data/tables/Table_S21.csv",
+    "source": "PopulationGroupRows",
+    "rows": 2
+  },
+  {
+    "label": "tab:population-outcomes",
+    "number": "S22",
+    "file": "data/tables/Table_S22.csv",
+    "source": "PopulationOutcomeRows",
+    "rows": 6
+  },
+  {
+    "label": "tab:intervention",
+    "number": "S23",
+    "file": "data/tables/Table_S23.csv",
+    "source": "DoseRows",
+    "rows": 3
+  },
+  {
+    "label": "tab:full-interventions",
+    "number": "S24",
+    "file": "data/tables/Table_S24.csv",
+    "source": "FullDoseRows",
+    "rows": 11
+  },
+  {
+    "label": "tab:reg",
+    "number": "S5",
+    "file": "data/tables/Table_S5a.csv",
+    "source": "RegressionRows",
+    "rows": 5
+  },
+  {
+    "label": "tab:reg",
+    "number": "S5",
+    "file": "data/tables/Table_S5b.csv",
+    "source": "FullAgeRows",
+    "rows": 13
+  },
+  {
+    "label": "tab:reg",
+    "number": "S5",
+    "file": "data/tables/Table_S5c.csv",
+    "source": "DecadeRows",
+    "rows": 2
+  },
+  {
+    "label": "tab:data-overview",
+    "number": "S1",
+    "file": "data/tables/Table_S1.csv",
+    "source": "static_tables.tex",
+    "rows": 4
+  },
+  {
+    "label": "tab:topic-composition",
+    "number": "S3",
+    "file": "data/tables/Table_S3.csv",
+    "source": "static_tables.tex",
+    "rows": 3
+  },
+  {
+    "label": "tab:notation",
+    "number": "S17",
+    "file": "data/tables/Table_S17.csv",
+    "source": "static_tables.tex",
+    "rows": 11
+  },
+  {
+    "label": "tab:parameters",
+    "number": "S18",
+    "file": "data/tables/Table_S18.csv",
+    "source": "static_tables.tex",
+    "rows": 9
+  },
+  {
+    "label": "tab:calibration-parameters",
+    "number": "S19",
+    "file": "data/tables/Table_S19.csv",
+    "source": "static_tables.tex",
+    "rows": 2
+  }
+]

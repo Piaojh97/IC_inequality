@@ -1,0 +1,24 @@
+\begin{algorithm}[H]
+\caption{Simulation of recommendation, feedback and exploration.}\label{alg:simulation}
+\small
+\begin{algorithmic}[1]
+\Require Number of users; item-topic probabilities; $\vec{p}_0$ and $\Phi$; $\beta$, $\alpha_l$ and $\sigma_l$; settings in Table~\ref{tab:parameters}.
+\State Draw the candidate items and initialize $\vec{x}_l$ and $\vec{u}_l(0)$ as described above.
+\State For each user, set $H_l^*=H(\vec{x}_l)$, $\vec{g}_l=\operatorname{softmax}(\alpha_l\vec{x}_l)$ over the 35 topics, and window accumulators $\vec{n}_l^+=\vec{G}_l=\vec{0}$.
+\For{$t=1,\ldots,5{,}000$}
+    \For{each user $l$}
+        \State \textbf{Recommend:} normalize $r_{lk}\propto\exp[\beta\vec{u}_l^{\top}\Phi\vec{i}_k]$ over all candidate items; sample ten distinct items to form $R_l$.
+        \State \textbf{Feedback:} independently draw $y_{lk}\sim\operatorname{Bernoulli}(\vec{g}_l^{\top}\vec{i}_k)$ for each $k\in R_l$.
+        \State \textbf{Explore:} draw $\vec{z}_{l,t}\sim\mathcal{N}(\vec{0},I_{35})$ and set $\vec{r}_{l,t}=\sigma_l\sqrt{\Delta t}\,\vec{z}_{l,t}$.
+        \State \textbf{Update:} form $\vec{F}_{l,t}=\sum_{k\in R_l}[\gamma_+y_{lk}+\gamma_-(1-y_{lk})]\,\vec{i}_k\odot(\vec{i}_k-\vec{u}_l)$.
+        \State Set $\vec{v}_l=\operatorname{clip}_{[0,1]}(\vec{u}_l+\Delta t\,\vec{F}_{l,t}+\vec{r}_{l,t})$ and $\vec{u}_l\leftarrow\vec{v}_l/\sum_jv_l^{(j)}$.
+        \State Accumulate $\vec{n}_l^+\leftarrow\vec{n}_l^++\sum_{k\in R_l}y_{lk}\vec{i}_k$ and $\vec{G}_l\leftarrow\vec{G}_l+\vec{r}_{l,t}$.
+        \If{$t$ is a multiple of 100}
+            \State Set $\vec{c}_l=\operatorname{clip}_{[0,1]}(\Delta t\,\vec{n}_l^++[\vec{G}_l]_+)$ and $\vec{\pi}_l=\vec{c}_l/\sum_jc_l^{(j)}$.
+            \State Record $\tilde{s}_{l,t/100}=H(\vec{\pi}_l)/H_l^*$ and reset $\vec{n}_l^+=\vec{G}_l=\vec{0}$.
+        \EndIf
+    \EndFor
+\EndFor
+\Ensure Fifty relative-entropy values per user, from which risk, persistence and depth are calculated.
+\end{algorithmic}
+\end{algorithm}

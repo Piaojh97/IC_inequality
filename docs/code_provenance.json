@@ -1,0 +1,299 @@
+[
+  {
+    "source": "codes/figures/all_figures/figure1.pdf",
+    "file": "reference/figures/Figure_1.pdf",
+    "source_sha256": "be7c34c8a64acabe724f8fa7d0dd71906d9ed65a47f5eed8c12efb1d882b8911",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/figures/all_figures/figure2.pdf",
+    "file": "reference/figures/Figure_2.pdf",
+    "source_sha256": "c2de412493b20950f57e62578ee494d531f62d1fdb205a7e27143c2d4314d6aa",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/figures/all_figures/figure3.pdf",
+    "file": "reference/figures/Figure_3.pdf",
+    "source_sha256": "5f722c57602de027fb3e171b7fc5187fd9326f1ec5a650ac573ec3508ea8c731",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/figures/all_figures/figure4.pdf",
+    "file": "reference/figures/Figure_4.pdf",
+    "source_sha256": "fdb3db9be4049d8b654d4c665b623767880ad97430d6d95a067d77df720bd2f9",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-cohort-profile.pdf",
+    "file": "reference/figures/Figure_S1.pdf",
+    "source_sha256": "6e42a73de063d0d9f5e1f19fc258794f1e42c6db2583130de656477732cba5c8",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-content-profile.pdf",
+    "file": "reference/figures/Figure_S2.pdf",
+    "source_sha256": "98393e55b518104f9b277e40495d29fc691312b7ce8ba1690606ef91f34e7ffb",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-s1.pdf",
+    "file": "reference/figures/Figure_S3.pdf",
+    "source_sha256": "a8ca2a7c98970ef315db2f39e4a0fa2faaa8afdde4801b950cb61f1563d4235f",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-baseline-distributions.pdf",
+    "file": "reference/figures/Figure_S4.pdf",
+    "source_sha256": "25a13b3b6e7dd2b5f5e2aa247da5cd2a5e8d7686eb792dcafb6680142510d660",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-s2.pdf",
+    "file": "reference/figures/Figure_S5.pdf",
+    "source_sha256": "9b0e3d9069538118f4dc734f929dbbbcdfa4c73dd5240a6806b45523ad8b206e",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-behaviour-distributions.pdf",
+    "file": "reference/figures/Figure_S6.pdf",
+    "source_sha256": "ad8adeb9f790df5f599ed079a042287f195a74d810efb48a1ee9dc563deacddf",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-behaviour-relations.pdf",
+    "file": "reference/figures/Figure_S7.pdf",
+    "source_sha256": "ac1568e402ae991ecab80c004815886f58f546b62ef548f08c638dd4c0cba75a",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-s3.pdf",
+    "file": "reference/figures/Figure_S8.pdf",
+    "source_sha256": "ee2f5788366fa6d4a77285ea2d27c3007df12b2d83c3f9fc3dbe680c38b27944",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-s6.pdf",
+    "file": "reference/figures/Figure_S9.pdf",
+    "source_sha256": "5f01179837d632c9d7ffc1c1d5d58a37908a214f90a2a4569e236c5c712fd368",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-model.pdf",
+    "file": "reference/figures/Figure_S10.pdf",
+    "source_sha256": "7179d7ac0a2ce848444fc96acdfa70c9be172cf214d932a9bf656f949a5b49a0",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-topic-correlations.pdf",
+    "file": "reference/figures/Figure_S11.pdf",
+    "source_sha256": "6ae03f8f71234dbdd6346cf43299904ccd7ce37166e8088d12f59bcff4b982d0",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-calibration.pdf",
+    "file": "reference/figures/Figure_S12.pdf",
+    "source_sha256": "847d82ebf8c10f40be0d8959312f00e2c09a180bf5b64367f8f97c952a9f22e8",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-population-outcomes.pdf",
+    "file": "reference/figures/Figure_S13.pdf",
+    "source_sha256": "b35618dd8d76a63b753e2783bfc11a8e365bd4da21a9e99e9d883b973956c12f",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-population-distributions.pdf",
+    "file": "reference/figures/Figure_S14.pdf",
+    "source_sha256": "5fd731ad48aaa3e058569bd0af211c6a1d4f35d0b280187e48cb2a21706376fc",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-s5.pdf",
+    "file": "reference/figures/Figure_S15.pdf",
+    "source_sha256": "9a7bb083979bdeecaa7a511deae753a2dbc45615519f62fc6a28be6be29a61ba",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-s7.pdf",
+    "file": "reference/figures/Figure_S16.pdf",
+    "source_sha256": "17b8fc389ddac3648e09e500649862e256f367138f71095d1f85b4f3f53eade9",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-intervention-distributions.pdf",
+    "file": "reference/figures/Figure_S17.pdf",
+    "source_sha256": "f000778ac3a1047a1a2fd20f8aa9ae01c1e5eaa3bd0bdb3a7d60d76db45201fd",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-tables.tex",
+    "file": "reference/table_sources/ic-tables.tex",
+    "source_sha256": "345bdbec70d2021becdce500aed448b989864663e0c8e4d89e74b4dfea2c26d9",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-regressions.tex",
+    "file": "reference/table_sources/ic-regressions.tex",
+    "source_sha256": "96f19a47020fa346f464b786517e39c4cacc2aeca00f99efac655724aaaef796",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-expanded-tables.tex",
+    "file": "reference/table_sources/ic-expanded-tables.tex",
+    "source_sha256": "fc2b369ae5afcadf41071a5b1ab724344af338f7a12feceb2ff034bb296e95a4",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/overleaf/ic-simulation-algorithm.tex",
+    "file": "reference/table_sources/ic-simulation-algorithm.tex",
+    "source_sha256": "c04723dc9ebe953fb3e87447d3635807a00678fc10cb5c56c39b4b20d811e168",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/build_figures.py",
+    "file": "reference/analysis/SI/build_figures.py",
+    "source_sha256": "ec8b42ea8be6ca5f61f6ed27abeb4ec41a80750454bcc23c666a89f78301dc75",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/expand_support.py",
+    "file": "reference/analysis/SI/expand_support.py",
+    "source_sha256": "e0c1d07988994412cbb5421e29836d7de31f298134b9351dee8ff4c601161d68",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/note1_profiles.py",
+    "file": "reference/analysis/SI/note1_profiles.py",
+    "source_sha256": "5db33e511c937e0e56a995735a8f17e985901fde883ce33ca9a7fdfc4d155be0",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/joint_mediation.py",
+    "file": "reference/analysis/SI/joint_mediation.py",
+    "source_sha256": "7b7310cd601fb446e3e0c601f6477225217e466db2cf4a64a45fadb3713cec47",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/path_regressions.py",
+    "file": "reference/analysis/SI/path_regressions.py",
+    "source_sha256": "91ea2203842618314391f517da19c4a90be99391b27c6dd0996e85022ff8a807",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/age_in_years.py",
+    "file": "reference/analysis/SI/age_in_years.py",
+    "source_sha256": "992889f6c703e592b19ba74c6105da8b21729f554901f412aae1287fef43409c",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/model_details.py",
+    "file": "reference/analysis/SI/model_details.py",
+    "source_sha256": "95dd3efa40a84a87931fb0a22dbf897597e6fd59680243a1443524f2c5918685",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/parameter_scan.py",
+    "file": "reference/analysis/SI/parameter_scan.py",
+    "source_sha256": "487e2799f6ca12056d221ae52b4c2579fe7089c0416bf8fa7777507d1e6581ec",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/simulation_support.py",
+    "file": "reference/analysis/SI/simulation_support.py",
+    "source_sha256": "41a18537fd2100b9e41c9c7c713deb334dd6be5f6b605f9f769767491d0d5d53",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/build_tables.py",
+    "file": "reference/analysis/SI/build_tables.py",
+    "source_sha256": "1169aaa668152e12a452071ca8f7adec93d0bc0b25fbabc012ccfcfda00014eb",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/model_diagram.py",
+    "file": "reference/analysis/SI/model_diagram.py",
+    "source_sha256": "7619d3e3dc5c4e04752e79cfe9ddb9e610e85e7cd6d00ff484a07844c773b378",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/compose_workflow.py",
+    "file": "reference/analysis/SI/compose_workflow.py",
+    "source_sha256": "6924e9717a99650ba3e1829cb1ddc32d9f57e0fed57d277c74d685f2dde12d0f",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/data_cleaned.ipynb",
+    "file": "reference/analysis/data_cleaned.ipynb",
+    "source_sha256": "d324bd965a9ff2a8b96ee8b8e71b640711c57458d53a86334eea5d6432295c08",
+    "copied_without_modification": false,
+    "changes": "Notebook outputs, attachments, execution counts and cell metadata removed; comments, Markdown explanations and diagnostic labels translated into English; calculations unchanged."
+  },
+  {
+    "source": "codes/figure1&SI.ipynb",
+    "file": "reference/analysis/figure1&SI.ipynb",
+    "source_sha256": "f9828127776fabe59634c0198752e5f9aeb7abdad3af166b20d5a14567968998",
+    "copied_without_modification": false,
+    "changes": "Notebook outputs, attachments, execution counts and cell metadata removed; comments, Markdown explanations and diagnostic labels translated into English; calculations unchanged."
+  },
+  {
+    "source": "codes/figure2.ipynb",
+    "file": "reference/analysis/figure2.ipynb",
+    "source_sha256": "ff84d9369c1dc752c62df301d44e94cabe9a5b811e29d026c1870855f31b022f",
+    "copied_without_modification": false,
+    "changes": "Notebook outputs, attachments, execution counts and cell metadata removed; comments, Markdown explanations and diagnostic labels translated into English; calculations unchanged."
+  },
+  {
+    "source": "codes/figure3.ipynb",
+    "file": "reference/analysis/figure3.ipynb",
+    "source_sha256": "7c5436ccab71606171b17e34c0b35de75cf08213acd5c3862dd8c5b880463e2d",
+    "copied_without_modification": false,
+    "changes": "Notebook outputs, attachments, execution counts and cell metadata removed; comments, Markdown explanations and diagnostic labels translated into English; calculations unchanged."
+  },
+  {
+    "source": "codes/figure4.ipynb",
+    "file": "reference/analysis/figure4.ipynb",
+    "source_sha256": "ee009f7b643615730f709f8eea38614de603620ca3db43ca6a419b0d67770296",
+    "copied_without_modification": false,
+    "changes": "Notebook outputs, attachments, execution counts and cell metadata removed; comments, Markdown explanations and diagnostic labels translated into English; calculations unchanged."
+  },
+  {
+    "source": "codes/empirical_vs_theory.ipynb",
+    "file": "reference/analysis/empirical_vs_theory.ipynb",
+    "source_sha256": "c0d9bc7aec8960ab76e2b6936334197f4c4c442c00356dc355adfbd84c2b5437",
+    "copied_without_modification": false,
+    "changes": "Notebook outputs, attachments, execution counts and cell metadata removed; comments, Markdown explanations and diagnostic labels translated into English; calculations unchanged."
+  },
+  {
+    "source": "codes/server_backup/population_simulation/simulator_optimized.py",
+    "file": "code/model/legacy_simulator.py",
+    "source_sha256": "8ff169c5af7d0145439abb5d7d5328d2b3a29b15352621437fcc912ac83e5d3e",
+    "copied_without_modification": false,
+    "changes": "Removed unused turtle import and translated one implementation comment into English; simulation rules unchanged."
+  },
+  {
+    "source": "codes/simulation_codes/LICENSE",
+    "file": "LICENSES/model-MIT.txt",
+    "source_sha256": "0bcd4d9766e42c05d5c7809ef8a29e0e5a6ea9f07db90347380f81c27a426e14",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/figures/figure2/figure2.ai",
+    "file": "reference/artwork/Figure2.ai",
+    "source_sha256": "7c22a0bec6964429a1c57cf681c4174f9f645a40fb4aea9429f90a40235a2a05",
+    "copied_without_modification": true
+  },
+  {
+    "source": "codes/SI/source_data/workflow_artwork.ai",
+    "file": "reference/artwork/model_workflow.ai",
+    "source_sha256": "92424ea3ca024fd14fdd0e81a642479cd73eab36958b7595c22324be7902bf16",
+    "copied_without_modification": true
+  },
+  {
+    "source": [
+      "codes/SI/overleaf/ic-note1.tex",
+      "codes/SI/overleaf/ic-note5.tex"
+    ],
+    "file": "reference/table_sources/static_tables.tex",
+    "transformation": "Extract five static table environments without editing their contents."
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "review_date": "2026-11-25",
+  "status": "passed",
+  "scope": "The local open_source folder, including generated outputs; original research files are read only.",
+  "data_files": 82,
+  "aggregate_csv_files": 77,
+  "numeric_topic_arrays": 3,
+  "data_metadata_json_files": 2,
+  "notebooks": {
+    "files": 6,
+    "total_cells": 267,
+    "code_cells": 262,
+    "saved_outputs": 0,
+    "attachments": 0,
+    "execution_counts": 0,
+    "cell_metadata_payloads": 0,
+    "inline_person_records_found": 0,
+    "calculations_unchanged_except_diagnostic_text": true
+  },
+  "language": {
+    "comments_and_explanatory_text": "English",
+    "remaining_cjk_in_python_or_notebook_sources": 0,
+    "topic_labels": "English only",
+    "remaining_cjk_in_release_text_files": 0,
+    "original_language_topic_column_removed": true
+  },
+  "identifiers": {
+    "files_scanned": 297,
+    "pdf_streams_scanned": 749,
+    "private_ids_compared": 653486,
+    "matched_locations": [],
+    "raw_identifiers_written": false,
+    "identifier_format_covered": true
+  },
+  "binary_artifacts": {
+    "pdf_and_illustrator_files": 68,
+    "decoded_pdf_streams_checked": 749,
+    "embedded_file_attachments": 0,
+    "form_fields": 0,
+    "identifier_text_flags": 0,
+    "png_files": 43,
+    "unexpected_png_metadata_fields": 0
+  },
+  "mapping": {
+    "main_figures": 4,
+    "supplementary_figures": 17,
+    "supplementary_table_numbers": 24,
+    "supplementary_table_csv_files": 26,
+    "plot_functions_executed_with_read_tracing": 21,
+    "corrections": [
+      "Added model_initialization.csv to Figure S11 dependencies.",
+      "Separated directly read data from companion group definitions and editable artwork.",
+      "Clarified that the risk ratios for Figure 1d-g are available in the table, rather than drawn as an additional curve.",
+      "Mapped Table S21 stationary entropy to the displayed table; population_status.csv supplies unrounded persistence and depth only.",
+      "Listed the four actual model input files and clarified the documentary role of settings.json."
+    ],
+    "readme_file_function_references_resolved": 101,
+    "independent_table_export_matches_all_26_csv_files": true,
+    "post_edit_model_demo_passed": true
+  },
+  "plotting_dependencies": {
+    "main_1": [
+      "data/empirical/age_risks.csv",
+      "data/empirical/min_entropy_histogram.csv",
+      "data/empirical/persistence_by_status.csv",
+      "data/empirical/threshold_depth.csv",
+      "data/empirical/thresholds.csv",
+      "data/statistical_results/regression_all_specifications.csv",
+      "data/statistical_results/regression_curves.csv"
+    ],
+    "main_2": [
+      "data/empirical/behaviour_by_age_status.csv",
+      "data/model/inputs/age_behaviour_distribution.csv",
+      "reference/figures/Figure_2.pdf"
+    ],
+    "main_3": [
+      "data/model/outputs/population_risks.csv",
+      "data/model/outputs/population_status.csv",
+      "data/statistical_results/calibration_cell_support.csv"
+    ],
+    "main_4": [
+      "data/model/outputs/intervention_curves.csv",
+      "data/model/outputs/phase_grid.csv",
+      "data/model/outputs/population_risks.csv"
+    ],
+    "s1": [
+      "data/statistical_results/note1_cohort_profile.csv"
+    ],
+    "s2": [
+      "data/empirical/distribution_cdfs.csv",
+      "data/statistical_results/note1_content_age_means.csv",
+      "data/statistical_results/note1_topic_profile.csv"
+    ],
+    "s3": [
+      "data/statistical_results/fig_s1_hourly_digitized.csv"
+    ],
+    "s4": [
+      "data/empirical/boxplot_statistics.csv",
+      "data/empirical/distribution_cdfs.csv"
+    ],
+    "s5": [
+      "data/statistical_results/fig_s2_contrasts.csv",
+      "data/statistical_results/fig_s2_groups.csv"
+    ],
+    "s6": [
+      "data/empirical/boxplot_statistics.csv"
+    ],
+    "s7": [
+      "data/empirical/indicator_rank_pairs.csv",
+      "data/statistical_results/behaviour_correlations.csv"
+    ],
+    "s8": [
+      "data/model/inputs/age_behaviour_distribution.csv"
+    ],
+    "s9": [
+      "data/statistical_results/regression_paths.csv"
+    ],
+    "s10": [
+      "reference/figures/Figure_S10.pdf"
+    ],
+    "s11": [
+      "data/model/inputs/model_initialization.csv",
+      "data/model/inputs/model_topic_correlations.csv",
+      "data/statistical_results/note1_topic_profile.csv"
+    ],
+    "s12": [
+      "data/statistical_results/calibration_cell_support.csv"
+    ],
+    "s13": [
+      "data/model/outputs/population_boxplots.csv"
+    ],
+    "s14": [
+      "data/model/outputs/population_cdfs.csv"
+    ],
+    "s15": [
+      "data/statistical_results/fig_s5.csv"
+    ],
+    "s16": [
+      "data/model/outputs/phase_grid.csv"
+    ],
+    "s17": [
+      "data/model/outputs/intervention_cdfs.csv"
+    ]
+  },
+  "original_source_files_hash_checked": 49,
+  "empirical_person_level_data_found": false,
+  "saved_simulated_person_level_data_found": false,
+  "full_private_regression_reestimation_performed": false,
+  "notes": [
+    "Source code references to user_id or private input filenames are method definitions, not released records.",
+    "Private identifiers were compared in memory and were never written to audit outputs.",
+    "This report describes the reviewed snapshot; verify_release.py checks schemas, grouping keys, notebook state, code references and checksums for subsequent changes."
+  ]
+}

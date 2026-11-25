@@ -1,0 +1,3 @@
+Order,Exploration (pp),Exploitation (pp),Joint (pp)
+Exploration first,3.33,6.26,9.59
+Exploitation first,3.46,6.13,9.59

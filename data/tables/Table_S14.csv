@@ -1,0 +1,6 @@
+Risk setting,Outcome age code,Exploration age code,Exploitation age code,Risk (%)
+$R_{000}$,0,0,0,31.35
+$R_{500}$,5,0,0,35.60
+$R_{550}$,5,5,0,38.93
+$R_{505}$,5,0,5,41.73
+$R_{555}$,5,5,5,45.19

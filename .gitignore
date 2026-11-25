@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+/outputs/
+private_data/
+*.pkl
+*.RData
+*.Rhistory
+.ipynb_checkpoints/

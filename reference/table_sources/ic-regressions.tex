@@ -1,0 +1,35 @@
+% Tables and path diagram used by Supplementary Notes 3 and 4.
+\newcommand{\AgeRegressionTable}{%
+\begin{table}[H]\centering
+\caption{\textbf{Age gradients in deep-IC risk and minimum relative entropy.}}\label{tab:reg}
+\setlength{\tabcolsep}{6pt}\renewcommand{\arraystretch}{1.15}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcc@{}}\toprule
+ & Deep IC, OR [95\% CI] & Minimum relative entropy, $\beta$ [95\% CI] \\ \midrule
+\multicolumn{3}{@{}l}{\textbf{a. Age-band coefficient by adjustment}} \\
+\RegressionRows
+\midrule
+\multicolumn{3}{@{}l}{\textbf{b. All coefficients in the fully adjusted models}} \\
+\FullAgeRows
+\bottomrule\end{tabular*}
+\tabnote{All models use 653,486 users. Panel a gives the age-band coefficient with each covariate set and with all covariates together. Socioeconomic covariates are handset price band, city tier and community type. Interest covariates are entertainment share, news share and first-hour viewing entropy. In panels a and b, age and handset price are per band, content shares per 10 percentage points, and entropy per nat. Reference groups are male, fifth-tier city and urban community. OR denotes an odds ratio. The logistic intercept is in log odds. Intervals use robust standard errors.}
+\par\vspace{8pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcc@{}}\toprule
+\multicolumn{3}{@{}l}{\textbf{c. Fully adjusted 10-year age contrasts}} \\
+Outcome & Difference [95\% CI] & Users in contrast \\ \midrule
+\DecadeRows
+\bottomrule\end{tabular*}
+\tabnote{Panel c replaces age band with age in years in the fully adjusted models. The risk contrast averages each user's predicted probability difference at their recorded age and ten years older, holding other covariates fixed. This average includes 598,996 users aged 19--69, so both predictions fall within the observed 19--79-year range. The linear-model contrast is the slope per ten years. Risk-difference intervals use the delta method with the robust coefficient covariance.}
+\end{table}}
+\newcommand{\MediationPathFigure}{%
+\begin{figure}[H]\centering\includegraphics[width=.78\linewidth]{ic-s6.pdf}
+\caption{\textbf{Regression paths linking age, exploration, exploitation, and deep-IC risk.} Left arrows give score changes per age band. Right arrows give odds ratios per score point. The middle arrow gives the age-band odds ratio with both scores held fixed. All paths adjust for the covariates in Table~\ref{tab:paths}. Table~\ref{tab:med} gives the standardized risk differences for the oldest--youngest contrast.}\label{fig:paths}
+\end{figure}}
+\newcommand{\MediationRegressionTable}{%
+\begin{table}[H]\centering\small\renewcommand{\arraystretch}{.95}
+\caption{\textbf{Adjusted regressions for the exploration and exploitation scores and deep-IC risk.}}\label{tab:paths}
+{\small\setlength{\tabcolsep}{3.5pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lccc@{}}\toprule
+Predictor & Exploration, $\beta$ [95\% CI] & Exploitation, $\beta$ [95\% CI] & Deep IC, OR [95\% CI] \\ \midrule
+\PathRows\bottomrule\end{tabular*}}
+\tabnote{All models include 653,486 users. The score models are linear and the risk model is logistic. Units, reference categories, and robust intervals follow Table~\ref{tab:reg}b. Dashes denote predictors omitted from a score model.}
+\end{table}}

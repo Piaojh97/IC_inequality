@@ -1,0 +1,468 @@
+[
+  {
+    "file": "data/statistical_results/age_in_years.csv",
+    "sources": [
+      "SI/results/age_in_years.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 2
+  },
+  {
+    "file": "data/statistical_results/behaviour_age_scores.csv",
+    "sources": [
+      "SI/results/behaviour_age_scores.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 6
+  },
+  {
+    "file": "data/statistical_results/behaviour_correlations.csv",
+    "sources": [
+      "SI/results/behaviour_correlations.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 4
+  },
+  {
+    "file": "data/statistical_results/behaviour_deciles.csv",
+    "sources": [
+      "SI/results/behaviour_deciles.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 40
+  },
+  {
+    "file": "data/statistical_results/behaviour_descriptive.csv",
+    "sources": [
+      "SI/results/behaviour_descriptive.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 4
+  },
+  {
+    "file": "data/statistical_results/calibration_cell_support.csv",
+    "sources": [
+      "SI/results/calibration_cell_support.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 100
+  },
+  {
+    "file": "data/statistical_results/fig_s1_hourly_digitized.csv",
+    "sources": [
+      "SI/results/fig_s1_hourly_digitized.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 90
+  },
+  {
+    "file": "data/statistical_results/fig_s2_contrasts.csv",
+    "sources": [
+      "SI/results/fig_s2_contrasts.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 27
+  },
+  {
+    "file": "data/statistical_results/fig_s2_groups.csv",
+    "sources": [
+      "SI/results/fig_s2_groups.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 35
+  },
+  {
+    "file": "data/statistical_results/fig_s2_quintiles.csv",
+    "sources": [
+      "SI/results/fig_s2_quintiles.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 20
+  },
+  {
+    "file": "data/statistical_results/fig_s3.csv",
+    "sources": [
+      "SI/results/fig_s3.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 600
+  },
+  {
+    "file": "data/statistical_results/fig_s5.csv",
+    "sources": [
+      "SI/results/fig_s5.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 70
+  },
+  {
+    "file": "data/statistical_results/fig_s7_parameter_scan.csv",
+    "sources": [
+      "SI/results/fig_s7_parameter_scan.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 900
+  },
+  {
+    "file": "data/statistical_results/intervention_dose_definition.csv",
+    "sources": [
+      "SI/results/intervention_dose_definition.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 3
+  },
+  {
+    "file": "data/statistical_results/intervention_full_grid.csv",
+    "sources": [
+      "SI/results/intervention_full_grid.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 33
+  },
+  {
+    "file": "data/statistical_results/joint_mediation.csv",
+    "sources": [
+      "SI/results/joint_mediation.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 5
+  },
+  {
+    "file": "data/statistical_results/joint_mediation_risks.csv",
+    "sources": [
+      "SI/results/joint_mediation_risks.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 5
+  },
+  {
+    "file": "data/statistical_results/note1_cohort_profile.csv",
+    "sources": [
+      "SI/results/note1_cohort_profile.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 21
+  },
+  {
+    "file": "data/statistical_results/note1_content_age_means.csv",
+    "sources": [
+      "SI/results/note1_content_age_means.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 6
+  },
+  {
+    "file": "data/statistical_results/note1_topic_profile.csv",
+    "sources": [
+      "SI/results/note1_topic_profile.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 35
+  },
+  {
+    "file": "data/statistical_results/population_outcomes.csv",
+    "sources": [
+      "SI/results/population_outcomes.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 6
+  },
+  {
+    "file": "data/statistical_results/regression_all_specifications.csv",
+    "sources": [
+      "SI/results/regression_all_specifications.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 64
+  },
+  {
+    "file": "data/statistical_results/regression_full.csv",
+    "sources": [
+      "SI/results/regression_full.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 26
+  },
+  {
+    "file": "data/statistical_results/regression_paths.csv",
+    "sources": [
+      "SI/results/regression_paths.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 41
+  },
+  {
+    "file": "data/statistical_results/simulation_population_summary.csv",
+    "sources": [
+      "SI/results/simulation_population_summary.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 6
+  },
+  {
+    "file": "data/statistical_results/table_s1.csv",
+    "sources": [
+      "SI/results/table_s1.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 6
+  },
+  {
+    "file": "data/statistical_results/table_s2.csv",
+    "sources": [
+      "SI/results/table_s2.csv"
+    ],
+    "description": "Saved aggregate result from the final supplement.",
+    "rows": 10
+  },
+  {
+    "file": "data/model/inputs/model_initialization.csv",
+    "sources": [
+      "SI/source_data/model_initialization.csv"
+    ],
+    "description": "Aggregated empirical input to the model.",
+    "rows": 35
+  },
+  {
+    "file": "data/model/inputs/model_topic_correlations.csv",
+    "sources": [
+      "SI/source_data/model_topic_correlations.csv"
+    ],
+    "description": "Aggregated empirical input to the model.",
+    "rows": 35
+  },
+  {
+    "file": "data/model/inputs/topic_labels.csv",
+    "sources": [
+      "SI/source_data/topic_labels.csv"
+    ],
+    "description": "Topic-level metadata with English labels only; the original-language label column is excluded.",
+    "rows": 35
+  },
+  {
+    "file": "data/model/inputs/phi_video_v2.npy",
+    "sources": [
+      "server_backup/population_simulation/Data/phi_video_v2.npy"
+    ],
+    "description": "Numeric aggregate model initialization; no identifiers.",
+    "shape": [
+      35,
+      35
+    ]
+  },
+  {
+    "file": "data/model/inputs/item_popularity_video_v2.npy",
+    "sources": [
+      "server_backup/population_simulation/Data/item_popularity_video_v2.npy"
+    ],
+    "description": "Numeric aggregate model initialization; no identifiers.",
+    "shape": [
+      35,
+      2
+    ]
+  },
+  {
+    "file": "data/model/inputs/user_alpha_mean_video_v3.npy",
+    "sources": [
+      "server_backup/population_simulation/Data/user_alpha_mean_video_v3.npy"
+    ],
+    "description": "Numeric aggregate model initialization; no identifiers.",
+    "shape": [
+      35
+    ]
+  },
+  {
+    "file": "data/empirical/thresholds.csv",
+    "sources": [
+      "cleaned_data_v2.csv",
+      "cleaned_data_1216.csv"
+    ],
+    "description": "One-sided tail probabilities, criteria, prevalence and age contrasts.",
+    "rows": 12
+  },
+  {
+    "file": "data/empirical/age_risks.csv",
+    "sources": [
+      "cleaned_data_v2.csv",
+      "cleaned_data_1216.csv"
+    ],
+    "description": "Six age groups at each threshold; normal binomial confidence intervals.",
+    "rows": 72
+  },
+  {
+    "file": "data/empirical/min_entropy_histogram.csv",
+    "sources": [
+      "cleaned_data_v2.csv",
+      "cleaned_data_1216.csv"
+    ],
+    "description": "100-bin minimum relative entropy distribution.",
+    "rows": 100
+  },
+  {
+    "file": "data/empirical/behaviour_by_age_status.csv",
+    "sources": [
+      "cleaned_data_v2.csv",
+      "cleaned_data_1216.csv"
+    ],
+    "description": "Age-by-IC-status means; public mean intervals use the normal approximation, not the legacy unseeded bootstrap.",
+    "rows": 48
+  },
+  {
+    "file": "data/empirical/boxplot_statistics.csv",
+    "sources": [
+      "cleaned_data_v2.csv",
+      "cleaned_data_1216.csv"
+    ],
+    "description": "Group-level 5th, 25th, 50th, 75th and 95th percentiles; no fliers or individual points.",
+    "rows": 30
+  },
+  {
+    "file": "data/empirical/distribution_cdfs.csv",
+    "sources": [
+      "cleaned_data_v2.csv",
+      "cleaned_data_1216.csv"
+    ],
+    "description": "CDF counts on fixed public grids, rather than individual sorted observations.",
+    "rows": 3009
+  },
+  {
+    "file": "data/empirical/baseline_by_age.csv",
+    "sources": [
+      "cleaned_data_v2.csv",
+      "cleaned_data_1216.csv"
+    ],
+    "description": "Age-group summaries for Table S4.",
+    "rows": 6
+  },
+  {
+    "file": "data/empirical/indicator_rank_pairs.csv",
+    "sources": [
+      "cleaned_data_v2.csv",
+      "cleaned_data_1216.csv"
+    ],
+    "description": "Joint rank counts for Supplementary Figure S7.",
+    "rows": 200
+  },
+  {
+    "file": "data/statistical_results/regression_curves.csv",
+    "sources": [
+      "cleaned_data_v2.csv",
+      "cleaned_data_1216.csv",
+      "SI/results/regression_all_specifications.csv"
+    ],
+    "description": "Legacy age-axis mapping and coefficient-bound envelope from Fig. 1 notebook; no model is refitted.",
+    "rows": 440
+  },
+  {
+    "file": "data/model/inputs/age_behaviour_distribution.csv",
+    "sources": [
+      "processed_data/age_range_all_dist.pkl"
+    ],
+    "description": "Stored calibration-aligned age-group joint frequencies.",
+    "rows": 600
+  },
+  {
+    "file": "data/model/outputs/phase_grid.csv",
+    "sources": [
+      "processed_data/phase_diagram.pkl"
+    ],
+    "description": "Saved 10×10×10 risk grid; beta=0 retained for legacy Fig. 4 slices, but excluded from the documented nine-level rerun.",
+    "rows": 1000
+  },
+  {
+    "file": "data/model/outputs/population_boxplots.csv",
+    "sources": [
+      "processed_data/samples_10000_model.pkl"
+    ],
+    "description": "Grouped simulated outcome quantiles; no simulated-agent records.",
+    "rows": 18
+  },
+  {
+    "file": "data/model/outputs/population_risks.csv",
+    "sources": [
+      "processed_data/samples_10000_model.pkl"
+    ],
+    "description": "Age-group risks and normal binomial intervals.",
+    "rows": 6
+  },
+  {
+    "file": "data/model/outputs/population_status.csv",
+    "sources": [
+      "processed_data/samples_10000_model.pkl"
+    ],
+    "description": "Persistence and depth summaries by deep-IC status.",
+    "rows": 4
+  },
+  {
+    "file": "data/model/outputs/population_cdfs.csv",
+    "sources": [
+      "processed_data/samples_10000_model.pkl"
+    ],
+    "description": "Simulated distribution CDFs on fixed grids.",
+    "rows": 1404
+  },
+  {
+    "file": "data/model/outputs/intervention_cells.csv",
+    "sources": [
+      "processed_data/intervention_beta.pkl"
+    ],
+    "description": "Group-level intervention grid results.",
+    "rows": 500
+  },
+  {
+    "file": "data/model/inputs/common_profiles.csv",
+    "sources": [
+      "processed_data/count_explore_exploit.pkl"
+    ],
+    "description": "Five most common empirical behavioural profiles.",
+    "rows": 5
+  },
+  {
+    "file": "data/model/outputs/intervention_curves.csv",
+    "sources": [
+      "processed_data/varying_alpha.pkl",
+      "processed_data/varying_beta.pkl",
+      "processed_data/varying_sigma.pkl"
+    ],
+    "description": "Normalized doses; beta=7-delta, alpha=alpha0-1.228delta, sigma=sigma0+0.003458delta.",
+    "rows": 33
+  },
+  {
+    "file": "data/model/outputs/intervention_cdfs.csv",
+    "sources": [
+      "processed_data/varying_alpha.pkl",
+      "processed_data/varying_beta.pkl",
+      "processed_data/varying_sigma.pkl"
+    ],
+    "description": "Stationary entropy CDFs at three doses; no per-agent outputs.",
+    "rows": 3609
+  },
+  {
+    "file": "data/empirical/threshold_depth.csv",
+    "sources": [
+      "ratio_for_cleaned_p1.pkl",
+      "ratio_for_cleaned_p2.pkl",
+      "cleaned_data_v2.csv"
+    ],
+    "description": "Figure 1b: criterion curve and mean follow-up entropy among classified users. Conditional mean minimum is provided separately.",
+    "rows": 12
+  },
+  {
+    "file": "data/empirical/persistence_by_status.csv",
+    "sources": [
+      "ratio_for_cleaned_p1.pkl",
+      "ratio_for_cleaned_p2.pkl",
+      "cleaned_data_v2.csv"
+    ],
+    "description": "Mean proportion of follow-up windows in ICs; two-sided equal-variance t test; normal mean intervals.",
+    "rows": 2
+  },
+  {
+    "file": "data/model/inputs/settings.json",
+    "sources": [
+      "reference/table_sources/static_tables.tex",
+      "code/model/run.py"
+    ],
+    "description": "Model parameter settings and calibrated mappings; no individual data."
+  }
+]

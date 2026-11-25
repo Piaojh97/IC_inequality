@@ -1,0 +1,5 @@
+Indicator,Mean,SD,"Median [Q25,Q75]",Zero count
+Search frequency,0.81,0.93,"0.42 [0.11, 1.22]","63,091"
+Interaction frequency,3.74,3.86,"2.27 [0.90, 5.29]",881
+Interested-video duration,60.23,20.34,"57.14 [45.18, 72.59]",0
+Top-decile viewing duration,161.95,60.20,"154.66 [117.86, 200.27]",0

@@ -1,0 +1,170 @@
+{
+  "tab:data-overview": {
+    "number": "S1",
+    "page": 3
+  },
+  "fig:cohort-profile": {
+    "number": "S1",
+    "page": 4
+  },
+  "tab:age": {
+    "number": "S2",
+    "page": 4
+  },
+  "tab:topic-composition": {
+    "number": "S3",
+    "page": 4
+  },
+  "fig:content-profile": {
+    "number": "S2",
+    "page": 5
+  },
+  "fig:early": {
+    "number": "S3",
+    "page": 6
+  },
+  "fig:baseline-distributions": {
+    "number": "S4",
+    "page": 6
+  },
+  "tab:baseline-age": {
+    "number": "S4",
+    "page": 7
+  },
+  "fig:groups": {
+    "number": "S5",
+    "page": 8
+  },
+  "tab:reg": {
+    "number": "S5",
+    "page": 9
+  },
+  "tab:risk-specs": {
+    "number": "S6",
+    "page": 10
+  },
+  "tab:thresholds": {
+    "number": "S7",
+    "page": 10
+  },
+  "tab:depth-specs": {
+    "number": "S8",
+    "page": 11
+  },
+  "tab:threshold-age": {
+    "number": "S9",
+    "page": 11
+  },
+  "fig:raw-behaviour": {
+    "number": "S6",
+    "page": 12
+  },
+  "tab:behaviour-summary": {
+    "number": "S10",
+    "page": 12
+  },
+  "fig:indicator-relations": {
+    "number": "S7",
+    "page": 13
+  },
+  "tab:deciles": {
+    "number": "S11",
+    "page": 13
+  },
+  "fig:behaviour": {
+    "number": "S8",
+    "page": 14
+  },
+  "tab:age-scores": {
+    "number": "S12",
+    "page": 14
+  },
+  "fig:paths": {
+    "number": "S9",
+    "page": 15
+  },
+  "tab:paths": {
+    "number": "S13",
+    "page": 15
+  },
+  "tab:standardized-risks": {
+    "number": "S14",
+    "page": 15
+  },
+  "tab:replacement-orders": {
+    "number": "S15",
+    "page": 16
+  },
+  "tab:med": {
+    "number": "S16",
+    "page": 16
+  },
+  "fig:model": {
+    "number": "S10",
+    "page": 17
+  },
+  "tab:notation": {
+    "number": "S17",
+    "page": 17
+  },
+  "fig:model-inputs": {
+    "number": "S11",
+    "page": 18
+  },
+  "alg:simulation": {
+    "number": "S1",
+    "page": 19
+  },
+  "tab:parameters": {
+    "number": "S18",
+    "page": 19
+  },
+  "tab:calibration-parameters": {
+    "number": "S19",
+    "page": 19
+  },
+  "fig:grid": {
+    "number": "S12",
+    "page": 20
+  },
+  "tab:simulation-age": {
+    "number": "S20",
+    "page": 20
+  },
+  "fig:population-outcomes": {
+    "number": "S13",
+    "page": 21
+  },
+  "fig:population-distributions": {
+    "number": "S14",
+    "page": 21
+  },
+  "tab:population-groups": {
+    "number": "S21",
+    "page": 21
+  },
+  "tab:population-outcomes": {
+    "number": "S22",
+    "page": 22
+  },
+  "fig:intervention": {
+    "number": "S15",
+    "page": 22
+  },
+  "tab:intervention": {
+    "number": "S23",
+    "page": 23
+  },
+  "tab:full-interventions": {
+    "number": "S24",
+    "page": 23
+  },
+  "fig:parameter-scan": {
+    "number": "S16",
+    "page": 24
+  },
+  "fig:intervention-distributions": {
+    "number": "S17",
+    "page": 25
+  }
+}

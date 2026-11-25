@@ -1,0 +1,65 @@
+\begin{table}[H]\centering
+\caption{\textbf{Records and measures in the longitudinal dataset.}}\label{tab:data-overview}
+\begin{tabularx}{\linewidth}{@{}p{.19\linewidth} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}\toprule
+Record type & Recorded information & Use in this study \\ \midrule
+Recommendations & User, video, topic and recommendation time & Links content exposure to subsequent viewing. \\
+Viewing & Video topic, viewing duration in seconds and fraction watched & Measures topic shares, consumption diversity and attention to preferred content. \\
+Search and interaction & Searches, saves, shares and comments & Characterizes active information seeking and engagement. \\
+User characteristics & Age, gender, handset price band, city tier and community type & Defines age groups and covariates for adjusted comparisons. \\
+\bottomrule\end{tabularx}
+\end{table}
+
+\begin{table}[H]\centering
+\caption{\textbf{Classification of the 35 topics into broad content groups.}}\label{tab:topic-composition}
+\begin{tabularx}{\linewidth}{@{}lr >{\raggedright\arraybackslash}X@{}}\toprule
+Content group & Topics & Topic names \\ \midrule
+Entertainment & 14 & Dance, Music, Game, Celebrity, Beauty, Fun, Travel, Food, Talent, Animal, Emotion, Anime, Unusual people \& events, Film \& short dramas. \\
+Knowledge & 20 & Makeup, Outfit, Sports, Living, Rural, Education, Health, Car, History, Finance, Religion, Astrology \& divination, Parent, Photo, Technology \& gadgets, Science, Law, Military, Property \& home, Books. \\
+News & 1 & News. \\
+\bottomrule\end{tabularx}
+\tabnote{Each topic belongs to one content group. A user's viewing share for a group sums the viewing-time shares of its constituent topics.}
+\end{table}
+
+\begin{table}[!htbp]\centering
+\caption{\textbf{Quantities in the information-dynamics model.}}\label{tab:notation}
+\begin{tabularx}{\linewidth}{@{}l >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}\toprule
+Symbol & Meaning & Role \\ \midrule
+$\vec{i}_k$ & Topic of candidate item $k$ & One-hot vector in the 35-topic space. \\
+$\vec{x}_l$ & Intrinsic preferences of user $l$ & Determines the probabilities of positive responses and the entropy baseline. \\
+$\vec{u}_l(t)$ & Preferences observed by the recommender & Changes through feedback and exploration; guides subsequent recommendations. \\
+$\vec{p}_0$ & Mean first-hour topic shares & Sets the mean of the preference distribution at initialization. \\
+$\Phi$ & Empirical correlations between topics & Enters the matching score $\vec{u}_l^{\top}\Phi\vec{i}_k$. \\
+$e_l,\ x_l$ & Empirical exploration and exploitation scores & Map each behavioural profile to $\sigma_l$ and $\alpha_l$. \\
+$\beta$ & Similarity-based matching strength & Controls concentration of recommendation probabilities on closer matches. \\
+$\alpha_l$ & Exploitation intensity & Controls concentration of responses on intrinsically preferred topics. \\
+$\sigma_l$ & Exploration intensity & Sets the scale of Gaussian preference increments. \\
+$\gamma_+,\gamma_-$ & Positive and negative feedback weights & Set the direction and strength of response-driven updates. \\
+$\Delta t$ & Simulation time step & Scales the feedback and exploration increments. \\
+\bottomrule\end{tabularx}
+\end{table}
+
+\begin{table}[!htbp]\centering
+\caption{\textbf{Simulation settings.}}\label{tab:parameters}
+\begin{tabularx}{\linewidth}{@{}l l >{\raggedright\arraybackslash}X@{}}\toprule
+Quantity & Setting & Role \\ \midrule
+Topic space & 35 topics & Empirical categories used in matching and feedback. \\
+Candidate items & 10,000 & Topic frequencies follow Fig.~\ref{fig:content-profile}a. \\
+Recommendation list & 10 items & Distinct items sampled at each step. \\
+Feedback weights & $\gamma_+=1,\ \gamma_-=-0.1$ & Positive and negative response-driven updates. \\
+Time step & $\Delta t=0.01$ & Discretization of feedback and exploration. \\
+Interaction steps & 5,000 & Updates per user. \\
+Consumption windows & $50\times100$ steps & Windows for entropy measurement. \\
+Initialization & $\operatorname{Dirichlet}(9.75\vec{p}_0)$ & Independent draws for intrinsic and observed preferences. \\
+Random seed & 4 & Seed for initialization and interaction draws. \\
+\bottomrule\end{tabularx}
+\end{table}
+
+\begin{table}[!htbp]\centering
+\caption{\textbf{Calibrated behavioural mappings and matching strength.}}\label{tab:calibration-parameters}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrr@{}}\toprule
+Mapping & Lower endpoint & Increment per score & Upper endpoint \\ \midrule
+Exploration, $\sigma_l$ & 0.018 & 0.0003458 & 0.0211122 \\
+Exploitation, $\alpha_l$ & 5.6 & 0.1228 & 6.7052 \\
+\bottomrule\end{tabular*}
+\tabnote{Both empirical scores take integer values from 0 to 9. Matching strength is $\beta=7$ at baseline. Calibration includes 100 behavioural profiles, each with 1,000 simulated users.}
+\end{table}

@@ -1,0 +1,1494 @@
+[
+  {
+    "file": "data/empirical/age_risks.csv",
+    "format": "csv",
+    "rows": 72,
+    "columns": [
+      "alpha",
+      "criterion",
+      "age",
+      "n",
+      "cases",
+      "risk",
+      "lo",
+      "hi"
+    ],
+    "grouping_keys": [
+      "alpha",
+      "age"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/empirical/baseline_by_age.csv",
+    "format": "csv",
+    "rows": 6,
+    "columns": [
+      "age",
+      "n",
+      "first_hour_mean",
+      "first_hour_sd",
+      "minimum_mean"
+    ],
+    "grouping_keys": [
+      "age"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/empirical/behaviour_by_age_status.csv",
+    "format": "csv",
+    "rows": 48,
+    "columns": [
+      "age",
+      "deep",
+      "metric",
+      "n",
+      "mean",
+      "sd",
+      "se",
+      "lo",
+      "hi",
+      "q05",
+      "q25",
+      "median",
+      "q75",
+      "q95"
+    ],
+    "grouping_keys": [
+      "age",
+      "deep",
+      "metric"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/empirical/boxplot_statistics.csv",
+    "format": "csv",
+    "rows": 30,
+    "columns": [
+      "age",
+      "metric",
+      "n",
+      "mean",
+      "sd",
+      "se",
+      "lo",
+      "hi",
+      "q05",
+      "q25",
+      "median",
+      "q75",
+      "q95"
+    ],
+    "grouping_keys": [
+      "age",
+      "metric"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/empirical/distribution_cdfs.csv",
+    "format": "csv",
+    "rows": 3009,
+    "columns": [
+      "metric",
+      "group",
+      "x",
+      "count_le",
+      "n",
+      "cdf"
+    ],
+    "grouping_keys": [
+      "metric",
+      "group",
+      "x"
+    ],
+    "granularity": "One fixed-grid point in a group cumulative distribution",
+    "person_level": false
+  },
+  {
+    "file": "data/empirical/indicator_rank_pairs.csv",
+    "format": "csv",
+    "rows": 200,
+    "columns": [
+      "dimension",
+      "row_score",
+      "column_score",
+      "count",
+      "percent"
+    ],
+    "grouping_keys": [
+      "dimension",
+      "row_score",
+      "column_score"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/empirical/min_entropy_histogram.csv",
+    "format": "csv",
+    "rows": 100,
+    "columns": [
+      "left",
+      "right",
+      "centre",
+      "count",
+      "density"
+    ],
+    "grouping_keys": [
+      "left",
+      "right"
+    ],
+    "granularity": "One interval of a cohort-level histogram",
+    "person_level": false
+  },
+  {
+    "file": "data/empirical/persistence_by_status.csv",
+    "format": "csv",
+    "rows": 2,
+    "columns": [
+      "deep",
+      "n",
+      "mean",
+      "sd",
+      "se",
+      "lo",
+      "hi",
+      "q05",
+      "q25",
+      "median",
+      "q75",
+      "q95",
+      "t_statistic",
+      "p_value"
+    ],
+    "grouping_keys": [
+      "deep"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/empirical/threshold_depth.csv",
+    "format": "csv",
+    "rows": 12,
+    "columns": [
+      "alpha",
+      "one_minus_alpha",
+      "criterion",
+      "n",
+      "conditional_mean_minimum",
+      "conditional_mean_average"
+    ],
+    "grouping_keys": [
+      "alpha"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/empirical/thresholds.csv",
+    "format": "csv",
+    "rows": 12,
+    "columns": [
+      "alpha",
+      "one_minus_alpha",
+      "criterion",
+      "n",
+      "cases",
+      "risk",
+      "disparity",
+      "risk_ratio",
+      "oldest_minus_youngest_pp"
+    ],
+    "grouping_keys": [
+      "alpha"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/model/inputs/age_behaviour_distribution.csv",
+    "format": "csv",
+    "rows": 600,
+    "columns": [
+      "age",
+      "exploration",
+      "exploitation",
+      "count",
+      "proportion",
+      "age_n"
+    ],
+    "grouping_keys": [
+      "age",
+      "exploration",
+      "exploitation"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/model/inputs/common_profiles.csv",
+    "format": "csv",
+    "rows": 5,
+    "columns": [
+      "exploration",
+      "exploitation",
+      "count"
+    ],
+    "grouping_keys": [
+      "exploration",
+      "exploitation"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/model/inputs/item_popularity_video_v2.npy",
+    "format": "npy",
+    "shape": [
+      35,
+      2
+    ],
+    "dtype": "float64",
+    "granularity": "Topic-level numeric input",
+    "person_level": false
+  },
+  {
+    "file": "data/model/inputs/model_initialization.csv",
+    "format": "csv",
+    "rows": 35,
+    "columns": [
+      "topic_id",
+      "mean_first_hour_share",
+      "candidate_topic_probability",
+      "dirichlet_concentration"
+    ],
+    "grouping_keys": [
+      "topic_id"
+    ],
+    "granularity": "One topic-level input or category definition",
+    "person_level": false
+  },
+  {
+    "file": "data/model/inputs/model_topic_correlations.csv",
+    "format": "csv",
+    "rows": 35,
+    "columns": [
+      "Unnamed: 0",
+      "1_num",
+      "2_num",
+      "3_num",
+      "4_num",
+      "5_num",
+      "6_num",
+      "7_num",
+      "8_num",
+      "9_num",
+      "10_num",
+      "11_num",
+      "12_num",
+      "13_num",
+      "14_num",
+      "15_num",
+      "16_num",
+      "17_num",
+      "18_num",
+      "19_num",
+      "20_num",
+      "21_num",
+      "22_num",
+      "23_num",
+      "24_num",
+      "25_num",
+      "26_num",
+      "27_num",
+      "28_num",
+      "29_num",
+      "30_num",
+      "35_num",
+      "36_num",
+      "37_num",
+      "38_num",
+      "39_num"
+    ],
+    "grouping_keys": [
+      "Unnamed: 0"
+    ],
+    "granularity": "One topic-level input or category definition",
+    "person_level": false
+  },
+  {
+    "file": "data/model/inputs/phi_video_v2.npy",
+    "format": "npy",
+    "shape": [
+      35,
+      35
+    ],
+    "dtype": "float64",
+    "granularity": "Topic-level numeric input",
+    "person_level": false
+  },
+  {
+    "file": "data/model/inputs/settings.json",
+    "format": "json",
+    "granularity": "Study settings or figure/table labels",
+    "person_level": false
+  },
+  {
+    "file": "data/model/inputs/topic_labels.csv",
+    "format": "csv",
+    "rows": 35,
+    "columns": [
+      "topic_id",
+      "topic_name",
+      "content_group",
+      "status",
+      "translation_source",
+      "name_source"
+    ],
+    "grouping_keys": [
+      "topic_id"
+    ],
+    "granularity": "One topic-level input or category definition",
+    "person_level": false
+  },
+  {
+    "file": "data/model/inputs/user_alpha_mean_video_v3.npy",
+    "format": "npy",
+    "shape": [
+      35
+    ],
+    "dtype": "float64",
+    "granularity": "Topic-level numeric input",
+    "person_level": false
+  },
+  {
+    "file": "data/model/outputs/intervention_cdfs.csv",
+    "format": "csv",
+    "rows": 3609,
+    "columns": [
+      "parameter",
+      "delta",
+      "x",
+      "count_le",
+      "n",
+      "cdf"
+    ],
+    "grouping_keys": [
+      "parameter",
+      "delta",
+      "x"
+    ],
+    "granularity": "One fixed-grid point in a group cumulative distribution",
+    "person_level": false
+  },
+  {
+    "file": "data/model/outputs/intervention_cells.csv",
+    "format": "csv",
+    "rows": 500,
+    "columns": [
+      "sigma",
+      "alpha",
+      "beta",
+      "n",
+      "cases",
+      "risk"
+    ],
+    "grouping_keys": [
+      "sigma",
+      "alpha",
+      "beta"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/model/outputs/intervention_curves.csv",
+    "format": "csv",
+    "rows": 33,
+    "columns": [
+      "parameter",
+      "delta",
+      "n",
+      "cases",
+      "risk",
+      "lo",
+      "hi"
+    ],
+    "grouping_keys": [
+      "parameter",
+      "delta"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/model/outputs/phase_grid.csv",
+    "format": "csv",
+    "rows": 1000,
+    "columns": [
+      "beta",
+      "exploitation",
+      "exploration",
+      "alpha",
+      "sigma",
+      "risk"
+    ],
+    "grouping_keys": [
+      "beta",
+      "exploitation",
+      "exploration"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/model/outputs/population_boxplots.csv",
+    "format": "csv",
+    "rows": 18,
+    "columns": [
+      "age",
+      "metric",
+      "n",
+      "mean",
+      "sd",
+      "se",
+      "lo",
+      "hi",
+      "q05",
+      "q25",
+      "median",
+      "q75",
+      "q95"
+    ],
+    "grouping_keys": [
+      "age",
+      "metric"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/model/outputs/population_cdfs.csv",
+    "format": "csv",
+    "rows": 1404,
+    "columns": [
+      "metric",
+      "group",
+      "x",
+      "count_le",
+      "n",
+      "cdf"
+    ],
+    "grouping_keys": [
+      "metric",
+      "group",
+      "x"
+    ],
+    "granularity": "One fixed-grid point in a group cumulative distribution",
+    "person_level": false
+  },
+  {
+    "file": "data/model/outputs/population_risks.csv",
+    "format": "csv",
+    "rows": 6,
+    "columns": [
+      "age",
+      "n",
+      "cases",
+      "risk",
+      "lo",
+      "hi"
+    ],
+    "grouping_keys": [
+      "age"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/model/outputs/population_status.csv",
+    "format": "csv",
+    "rows": 4,
+    "columns": [
+      "deep",
+      "metric",
+      "n",
+      "mean",
+      "sd",
+      "se",
+      "lo",
+      "hi",
+      "q05",
+      "q25",
+      "median",
+      "q75",
+      "q95"
+    ],
+    "grouping_keys": [
+      "deep",
+      "metric"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/age_in_years.csv",
+    "format": "csv",
+    "rows": 2,
+    "columns": [
+      "outcome",
+      "unit",
+      "n_fit",
+      "n_contrast",
+      "older_minus_younger",
+      "lo95",
+      "hi95"
+    ],
+    "grouping_keys": [
+      "outcome",
+      "unit"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/behaviour_age_scores.csv",
+    "format": "csv",
+    "rows": 6,
+    "columns": [
+      "age",
+      "n",
+      "explore_q_mean",
+      "explore_q_sd",
+      "exploit_q_mean",
+      "exploit_q_sd",
+      "score_correlation"
+    ],
+    "grouping_keys": [
+      "age"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/behaviour_correlations.csv",
+    "format": "csv",
+    "rows": 4,
+    "columns": [
+      "Unnamed: 0",
+      "watched_search1",
+      "activeness",
+      "attention_span1",
+      "top10avg"
+    ],
+    "grouping_keys": [
+      "Unnamed: 0"
+    ],
+    "granularity": "One row of an aggregate correlation matrix",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/behaviour_deciles.csv",
+    "format": "csv",
+    "rows": 40,
+    "columns": [
+      "indicator",
+      "rank",
+      "lower",
+      "upper",
+      "n"
+    ],
+    "grouping_keys": [
+      "indicator",
+      "rank"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/behaviour_descriptive.csv",
+    "format": "csv",
+    "rows": 4,
+    "columns": [
+      "indicator",
+      "mean",
+      "sd",
+      "median",
+      "q25",
+      "q75",
+      "zero_n"
+    ],
+    "grouping_keys": [
+      "indicator"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/calibration_cell_support.csv",
+    "format": "csv",
+    "rows": 100,
+    "columns": [
+      "exploration",
+      "exploitation",
+      "n",
+      "empirical_risk",
+      "simulated_risk",
+      "error_pp"
+    ],
+    "grouping_keys": [
+      "exploration",
+      "exploitation"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/fig_s1_hourly_digitized.csv",
+    "format": "csv",
+    "rows": 90,
+    "columns": [
+      "metric",
+      "viewing_hour",
+      "mean",
+      "lower",
+      "upper",
+      "marker_x_px",
+      "marker_y_px",
+      "lower_y_px",
+      "upper_y_px"
+    ],
+    "grouping_keys": [
+      "metric",
+      "viewing_hour"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/fig_s2_contrasts.csv",
+    "format": "csv",
+    "rows": 27,
+    "columns": [
+      "dimension",
+      "tail_probability",
+      "normalised_gap"
+    ],
+    "grouping_keys": [
+      "dimension",
+      "tail_probability"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/fig_s2_groups.csv",
+    "format": "csv",
+    "rows": 35,
+    "columns": [
+      "dimension",
+      "group",
+      "n",
+      "risk",
+      "lo",
+      "hi"
+    ],
+    "grouping_keys": [
+      "dimension",
+      "group"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/fig_s2_quintiles.csv",
+    "format": "csv",
+    "rows": 20,
+    "columns": [
+      "measure",
+      "quintile",
+      "lower",
+      "upper"
+    ],
+    "grouping_keys": [
+      "measure",
+      "quintile"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/fig_s3.csv",
+    "format": "csv",
+    "rows": 600,
+    "columns": [
+      "age",
+      "exploration",
+      "exploitation",
+      "percent"
+    ],
+    "grouping_keys": [
+      "age",
+      "exploration",
+      "exploitation"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/fig_s5.csv",
+    "format": "csv",
+    "rows": 70,
+    "columns": [
+      "panel",
+      "origin_s",
+      "origin_a",
+      "step",
+      "s",
+      "a",
+      "beta",
+      "n",
+      "risk"
+    ],
+    "grouping_keys": [
+      "panel",
+      "origin_s",
+      "origin_a",
+      "step"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/fig_s7_parameter_scan.csv",
+    "format": "csv",
+    "rows": 900,
+    "columns": [
+      "beta",
+      "exploitation_score",
+      "exploration_score",
+      "alpha",
+      "sigma",
+      "n",
+      "risk"
+    ],
+    "grouping_keys": [
+      "beta",
+      "exploitation_score",
+      "exploration_score"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/intervention_dose_definition.csv",
+    "format": "csv",
+    "rows": 3,
+    "columns": [
+      "parameter",
+      "n",
+      "dose_fraction",
+      "risk_at_30",
+      "risk_at_100"
+    ],
+    "grouping_keys": [
+      "parameter"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/intervention_full_grid.csv",
+    "format": "csv",
+    "rows": 33,
+    "columns": [
+      "parameter",
+      "delta",
+      "n",
+      "risk"
+    ],
+    "grouping_keys": [
+      "parameter",
+      "delta"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/joint_mediation.csv",
+    "format": "csv",
+    "rows": 5,
+    "columns": [
+      "component",
+      "risk_difference",
+      "lo",
+      "hi",
+      "share",
+      "share_lo",
+      "share_hi"
+    ],
+    "grouping_keys": [
+      "component"
+    ],
+    "granularity": "One population-standardized risk or mediation component",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/joint_mediation_risks.csv",
+    "format": "csv",
+    "rows": 5,
+    "columns": [
+      "outcome_age",
+      "exploration_age",
+      "exploitation_age",
+      "standardised_risk"
+    ],
+    "grouping_keys": [
+      "outcome_age",
+      "exploration_age",
+      "exploitation_age"
+    ],
+    "granularity": "One population-standardized risk or mediation component",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/note1_cohort_profile.csv",
+    "format": "csv",
+    "rows": 21,
+    "columns": [
+      "dimension",
+      "category",
+      "n",
+      "percent"
+    ],
+    "grouping_keys": [
+      "dimension",
+      "category"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/note1_content_age_means.csv",
+    "format": "csv",
+    "rows": 6,
+    "columns": [
+      "age_range",
+      "entertainment_ratio",
+      "knowledge_ratio",
+      "news_ratio"
+    ],
+    "grouping_keys": [
+      "age_range"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/note1_topic_profile.csv",
+    "format": "csv",
+    "rows": 35,
+    "columns": [
+      "topic_id",
+      "topic_name",
+      "items_num",
+      "candidate_topic_probability",
+      "mean_first_hour_share"
+    ],
+    "grouping_keys": [
+      "topic_id"
+    ],
+    "granularity": "One topic-level input or category definition",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/population_outcomes.csv",
+    "format": "csv",
+    "rows": 6,
+    "columns": [
+      "age",
+      "n",
+      "risk",
+      "final_entropy",
+      "persistence",
+      "depth"
+    ],
+    "grouping_keys": [
+      "age"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/regression_all_specifications.csv",
+    "format": "csv",
+    "rows": 64,
+    "columns": [
+      "outcome",
+      "specification",
+      "term",
+      "estimate",
+      "lo",
+      "hi",
+      "n"
+    ],
+    "grouping_keys": [
+      "outcome",
+      "specification",
+      "term"
+    ],
+    "granularity": "One fitted-model coefficient or contrast, not a fitted value for a person",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/regression_curves.csv",
+    "format": "csv",
+    "rows": 440,
+    "columns": [
+      "outcome",
+      "specification",
+      "age_axis",
+      "age_code",
+      "estimate",
+      "lo",
+      "hi"
+    ],
+    "grouping_keys": [
+      "outcome",
+      "specification",
+      "age_axis"
+    ],
+    "granularity": "One saved model-evaluation point per specification and age-axis value",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/regression_full.csv",
+    "format": "csv",
+    "rows": 26,
+    "columns": [
+      "model",
+      "term",
+      "estimate",
+      "lo",
+      "hi",
+      "n"
+    ],
+    "grouping_keys": [
+      "model",
+      "term"
+    ],
+    "granularity": "One fitted-model coefficient or contrast, not a fitted value for a person",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/regression_paths.csv",
+    "format": "csv",
+    "rows": 41,
+    "columns": [
+      "model",
+      "term",
+      "estimate",
+      "lo",
+      "hi",
+      "n"
+    ],
+    "grouping_keys": [
+      "model",
+      "term"
+    ],
+    "granularity": "One fitted-model coefficient or contrast, not a fitted value for a person",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/simulation_population_summary.csv",
+    "format": "csv",
+    "rows": 6,
+    "columns": [
+      "age",
+      "n",
+      "deep_n",
+      "empirical_risk",
+      "simulated_risk"
+    ],
+    "grouping_keys": [
+      "age"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/table_s1.csv",
+    "format": "csv",
+    "rows": 6,
+    "columns": [
+      "age",
+      "n",
+      "percent"
+    ],
+    "grouping_keys": [
+      "age"
+    ],
+    "granularity": "One aggregate group, metric or simulation parameter setting",
+    "person_level": false
+  },
+  {
+    "file": "data/statistical_results/table_s2.csv",
+    "format": "csv",
+    "rows": 10,
+    "columns": [
+      "adjustment",
+      "metric",
+      "n",
+      "estimate",
+      "lo",
+      "hi"
+    ],
+    "grouping_keys": [
+      "adjustment",
+      "metric"
+    ],
+    "granularity": "One fitted-model coefficient or contrast, not a fitted value for a person",
+    "person_level": false
+  },
+  {
+    "file": "data/table_labels.json",
+    "format": "json",
+    "granularity": "Study settings or figure/table labels",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S1.csv",
+    "format": "csv",
+    "rows": 4,
+    "columns": [
+      "Record type",
+      "Recorded information",
+      "Use in this study"
+    ],
+    "grouping_keys": [
+      "Record type"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S10.csv",
+    "format": "csv",
+    "rows": 4,
+    "columns": [
+      "Indicator",
+      "Mean",
+      "SD",
+      "Median [Q25,Q75]",
+      "Zero count"
+    ],
+    "grouping_keys": [
+      "Indicator"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S11.csv",
+    "format": "csv",
+    "rows": 11,
+    "columns": [
+      "Percentile",
+      "Search",
+      "Interaction",
+      "Interested viewing",
+      "Top-decile viewing"
+    ],
+    "grouping_keys": [
+      "Percentile"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S12.csv",
+    "format": "csv",
+    "rows": 6,
+    "columns": [
+      "Age",
+      "Users",
+      "Exploration mean (SD)",
+      "Exploitation mean (SD)",
+      "Correlation"
+    ],
+    "grouping_keys": [
+      "Age"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S13.csv",
+    "format": "csv",
+    "rows": 15,
+    "columns": [
+      "Predictor",
+      "Exploration coefficient [95% CI]",
+      "Exploitation coefficient [95% CI]",
+      "Risk OR [95% CI]"
+    ],
+    "grouping_keys": [
+      "Predictor"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S14.csv",
+    "format": "csv",
+    "rows": 5,
+    "columns": [
+      "Risk setting",
+      "Outcome age code",
+      "Exploration age code",
+      "Exploitation age code",
+      "Risk (%)"
+    ],
+    "grouping_keys": [
+      "Risk setting"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S15.csv",
+    "format": "csv",
+    "rows": 2,
+    "columns": [
+      "Order",
+      "Exploration (pp)",
+      "Exploitation (pp)",
+      "Joint (pp)"
+    ],
+    "grouping_keys": [
+      "Order"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S16.csv",
+    "format": "csv",
+    "rows": 5,
+    "columns": [
+      "Component",
+      "Risk difference (pp) [95% CI]",
+      "Share (%) [95% CI]"
+    ],
+    "grouping_keys": [
+      "Component"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S17.csv",
+    "format": "csv",
+    "rows": 11,
+    "columns": [
+      "Symbol",
+      "Meaning",
+      "Role"
+    ],
+    "grouping_keys": [
+      "Symbol"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S18.csv",
+    "format": "csv",
+    "rows": 9,
+    "columns": [
+      "Quantity",
+      "Setting",
+      "Role"
+    ],
+    "grouping_keys": [
+      "Quantity"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S19.csv",
+    "format": "csv",
+    "rows": 2,
+    "columns": [
+      "Mapping",
+      "Lower endpoint",
+      "Increment per score",
+      "Upper endpoint"
+    ],
+    "grouping_keys": [
+      "Mapping"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S2.csv",
+    "format": "csv",
+    "rows": 7,
+    "columns": [
+      "Age",
+      "Users",
+      "Share (%)"
+    ],
+    "grouping_keys": [
+      "Age"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S20.csv",
+    "format": "csv",
+    "rows": 6,
+    "columns": [
+      "Age",
+      "Simulated users",
+      "Empirical risk (%)",
+      "Simulated risk (%)"
+    ],
+    "grouping_keys": [
+      "Age"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S21.csv",
+    "format": "csv",
+    "rows": 2,
+    "columns": [
+      "Group",
+      "Simulated users",
+      "Stationary relative entropy",
+      "Time in ICs (%)",
+      "Depth"
+    ],
+    "grouping_keys": [
+      "Group"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S22.csv",
+    "format": "csv",
+    "rows": 6,
+    "columns": [
+      "Age",
+      "Simulated users",
+      "Risk (%)",
+      "Stationary relative entropy",
+      "Time in ICs (%)",
+      "Depth"
+    ],
+    "grouping_keys": [
+      "Age"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S23.csv",
+    "format": "csv",
+    "rows": 3,
+    "columns": [
+      "Intervention",
+      "Parameter rule",
+      "Risk at 30% (%)",
+      "Risk at 100% (%)"
+    ],
+    "grouping_keys": [
+      "Intervention"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S24.csv",
+    "format": "csv",
+    "rows": 11,
+    "columns": [
+      "Normalized adjustment",
+      "Weaker matching risk (%)",
+      "Lower exploitation risk (%)",
+      "Higher exploration risk (%)",
+      "Matching gap removed (%)",
+      "Exploitation gap removed (%)",
+      "Exploration gap removed (%)"
+    ],
+    "grouping_keys": [
+      "Normalized adjustment"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S3.csv",
+    "format": "csv",
+    "rows": 3,
+    "columns": [
+      "Content group",
+      "Topics",
+      "Topic names"
+    ],
+    "grouping_keys": [
+      "Content group"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S4.csv",
+    "format": "csv",
+    "rows": 6,
+    "columns": [
+      "Age",
+      "Users",
+      "First-hour entropy mean",
+      "First-hour entropy SD",
+      "Minimum relative entropy mean"
+    ],
+    "grouping_keys": [
+      "Age"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S5a.csv",
+    "format": "csv",
+    "rows": 5,
+    "columns": [
+      "Adjustment",
+      "Age OR [95% CI]",
+      "Age entropy coefficient [95% CI]"
+    ],
+    "grouping_keys": [
+      "Adjustment"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S5b.csv",
+    "format": "csv",
+    "rows": 13,
+    "columns": [
+      "Predictor",
+      "Risk OR [95% CI]",
+      "Entropy coefficient [95% CI]"
+    ],
+    "grouping_keys": [
+      "Predictor"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S5c.csv",
+    "format": "csv",
+    "rows": 2,
+    "columns": [
+      "Outcome",
+      "10-year contrast [95% CI]",
+      "Users in contrast"
+    ],
+    "grouping_keys": [
+      "Outcome"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S6.csv",
+    "format": "csv",
+    "rows": 13,
+    "columns": [
+      "Predictor",
+      "Age only",
+      "Gender",
+      "Economic status",
+      "Interests",
+      "All covariates"
+    ],
+    "grouping_keys": [
+      "Predictor"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S7.csv",
+    "format": "csv",
+    "rows": 9,
+    "columns": [
+      "Alpha",
+      "Entropy criterion",
+      "Deep-IC cases",
+      "Risk (%)",
+      "Age gap (pp)",
+      "Risk ratio"
+    ],
+    "grouping_keys": [
+      "Alpha"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S8.csv",
+    "format": "csv",
+    "rows": 13,
+    "columns": [
+      "Predictor",
+      "Age only",
+      "Gender",
+      "Economic status",
+      "Interests",
+      "All covariates"
+    ],
+    "grouping_keys": [
+      "Predictor"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  },
+  {
+    "file": "data/tables/Table_S9.csv",
+    "format": "csv",
+    "rows": 9,
+    "columns": [
+      "Alpha",
+      "19–23",
+      "24–30",
+      "31–40",
+      "41–50",
+      "51–60",
+      "61–79"
+    ],
+    "grouping_keys": [
+      "Alpha"
+    ],
+    "granularity": "One displayed supplementary-table row; aggregate estimate, notation or design metadata",
+    "person_level": false
+  }
+]

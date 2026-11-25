@@ -1,0 +1,12 @@
+Symbol,Meaning,Role
+$\vec{i}_k$,Topic of candidate item $k$,One-hot vector in the 35-topic space.
+$\vec{x}_l$,Intrinsic preferences of user $l$,Determines the probabilities of positive responses and the entropy baseline.
+$\vec{u}_l(t)$,Preferences observed by the recommender,Changes through feedback and exploration; guides subsequent recommendations.
+$\vec{p}_0$,Mean first-hour topic shares,Sets the mean of the preference distribution at initialization.
+$\Phi$,Empirical correlations between topics,Enters the matching score $\vec{u}_l^{\top}\Phi\vec{i}_k$.
+"$e_l,\ x_l$",Empirical exploration and exploitation scores,Map each behavioural profile to $\sigma_l$ and $\alpha_l$.
+$\beta$,Similarity-based matching strength,Controls concentration of recommendation probabilities on closer matches.
+$\alpha_l$,Exploitation intensity,Controls concentration of responses on intrinsically preferred topics.
+$\sigma_l$,Exploration intensity,Sets the scale of Gaussian preference increments.
+"$\gamma_+,\gamma_-$",Positive and negative feedback weights,Set the direction and strength of response-driven updates.
+$\Delta t$,Simulation time step,Scales the feedback and exploration increments.

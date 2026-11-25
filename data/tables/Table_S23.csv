@@ -1,0 +1,4 @@
+Intervention,Parameter rule,Risk at 30% (%),Risk at 100% (%)
+Weaker matching,$\beta=7-\delta$,36.5,28.3
+Lower exploitation,"$\alpha_l=\alpha_{l,0}-1.228\delta$",34.3,19.9
+Higher exploration,"$\sigma_l=\sigma_{l,0}+0.003458\delta$",36.3,26.1
