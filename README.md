@@ -99,6 +99,6 @@ See the [data dictionary](docs/DATA_DICTIONARY.md) for variable definitions and 
 
 ## Data availability
 
-Empirical data are shared as aggregate statistics, including fitted regression and mediation estimates. Re-estimating these models requires the individual-level platform records, which are not publicly released. The supplied data support figure reproduction and model simulations.
+Empirical data are shared as aggregate statistics, including fitted regression and mediation estimates.
 
 The simulator builds on our earlier work, *Human–AI Adaptive Dynamics Drive Emergence of Information Cocoons*. Attribution and licence information are provided in [LICENSES](LICENSES/README.md).
