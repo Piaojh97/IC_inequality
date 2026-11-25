@@ -16,7 +16,7 @@ This package contains group statistics and model inputs. No row represents an em
 | `alpha` in model files | Exploitation intensity; distinct from the empirical tail probability |
 | `beta`, `sigma` | Recommendation-matching strength and exploration intensity |
 | `exploration`, `exploitation` | Integer behavioural scores from 0 to 9; each row is a group or grid cell |
-| `delta` | Normalized intervention dose from 0 to 1; see README for parameter-specific conversion |
+| `delta` | Normalized intervention dose from 0 to 1; see [reproduction notes](REPRODUCTION.md) for parameter-specific conversion |
 | `mean`, `sd`, `se` | Group mean, sample SD and standard error of the mean |
 | `lo`, `hi` | Lower and upper interval endpoints; interval methods are documented per file family |
 | `q05`, `q25`, `median`, `q75`, `q95` | Group percentiles used for box plots; no individual fliers are provided |

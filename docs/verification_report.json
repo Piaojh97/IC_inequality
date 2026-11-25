@@ -260,8 +260,9 @@
     "date": "2026-11-25",
     "report": "docs/release_audit.json",
     "notebook_comments_english": true,
-    "readme_references_checked": 101,
+    "readme_references_checked": 6,
     "independent_table_exports_matched": 26,
-    "all_release_text_english": true
+    "all_release_text_english": true,
+    "documentation_references_checked": 128
   }
 }

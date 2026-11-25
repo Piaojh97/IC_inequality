@@ -54,9 +54,15 @@
       "Mapped Table S21 stationary entropy to the displayed table; population_status.csv supplies unrounded persistence and depth only.",
       "Listed the four actual model input files and clarified the documentary role of settings.json."
     ],
-    "readme_file_function_references_resolved": 101,
     "independent_table_export_matches_all_26_csv_files": true,
-    "post_edit_model_demo_passed": true
+    "post_edit_model_demo_passed": true,
+    "documentation_file_function_references_resolved": 128,
+    "documentation_reference_scope": [
+      "README.md",
+      "docs/FIGURE_GUIDE.md",
+      "docs/REPRODUCTION.md",
+      "docs/DATA_DICTIONARY.md"
+    ]
   },
   "plotting_dependencies": {
     "main_1": [

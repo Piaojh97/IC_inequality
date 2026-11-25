@@ -20,7 +20,7 @@ All 262 notebook code cells were compared with their source versions. Calculatio
 
 The README and machine-readable index cover four main figures, 17 supplementary figures and 24 supplementary table numbers. Table S5 has three CSV panels, so there are 26 table CSV files.
 
-All 21 main/supplementary plotting functions were executed while recording their actual input reads. All 101 file/function references in the README resolve. An independent table export reproduces all 26 CSV files byte for byte. The review corrected the following documentation details:
+All 21 main/supplementary plotting functions were executed while recording their actual input reads. All 128 checked file/function references in the README and linked figure, reproduction and data guides resolve. An independent table export reproduces all 26 CSV files byte for byte. The review corrected the following documentation details:
 
 - Figure S11 also reads `model_initialization.csv` to map the topic matrix to display order.
 - Quintile cut points, common-profile counts and editable artwork are now marked as supporting files when the plotting function does not read them directly.
